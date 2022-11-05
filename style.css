@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 450px;
+    background-image: url(./images/BACK.png);
+    background-size: cover;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 4%;
+  color: aliceblue;
+  list-style: none;
+  margin-right: 5%;
+  font-size: 17px;
+   
+}
+header li{
+    margin-left: 2rem;
+    cursor: pointer;
+    
+}
+
+#li-1{
+    position: absolute;
+    left: 100px;
+    font-weight: bold;
+}
+
+.text-logo img{
+    width: 280px;
+    position: absolute;
+    left: 40%;
+    top: 18%;
+}
+
+header h2{
+    font-size: 40px;
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+header input{
+    width: 50%;
+    padding: 1%;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#loco{
+    z-index: 1;
+    width: 20px;
+    position: absolute;
+    left: 25.5%;
+    top: 38.8%;
+    cursor: pointer;
+}
+
+#search-icon{
+    z-index: 1;
+    width: 19px;
+    position: absolute;
+    left: 36.9%;
+    top: 39.6%;
+    cursor: pointer;
+}
+
+#down-icon{
+    z-index: 1;
+    width: 17px;
+    position: absolute;
+    left: 34.2%;
+    top: 39.9%;
+    cursor: pointer;
+}
+
+.first{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.first-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 500px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .5s;
+    box-shadow: 2px 5px 5px rgb(121, 117, 117);
+    transform: translate( 10px 20px);
+
+}
+.head{
+    
+    padding: 4%;
+}
+
+.first-sec img{
+    background-size: cover;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+.head h2{
+    font-size: 22px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-sec:hover{
+    box-shadow: 0;  
+}
+
+/*  second section start */
+
+.second{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+
+.second h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    margin-left: 16%;
+}
+
+.second p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    color: rgb(103, 104, 105);
+    margin-left: 16%;
+    margin-top: .5%;
+}
+
+.para{
+    display: flex;
+}
+
+#link-para a{
+    text-decoration: none;
+    color: rgb(224, 71, 71);
+    font-size: 15px;
+    font-style: inherit;
+}
+
+#r-arrow{
+    width: 18px;
+    position: absolute;
+    right: 4.7%;
+    margin-top: .5%;
+    cursor: pointer;
+}
+
+.row{
+    width: 70%;
+    height: 250px;
+    margin-top: 8%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row img{
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.row img:hover{
+    box-shadow: 2px 5px 5px rgb(17, 16, 16);
+}
+
+.row h3{
+    margin-left: 12%;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+}
+
+#trd{
+    margin-left: 21%;
+}
+
+/*third section  */
+
+.third{
+    width: 100%;
+    height: 700px;
+
+}
+
+.third h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    margin-left: 16%;
+}
+
+.row1{
+    width: 80%;
+    height: 100px;
+   
+    margin-left: 16%;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box{
+    width: 30%;
+    height: 75px ;
+   
+    margin-top: 1%;
+    padding: 2%;
+    border-radius: 3px;
+    transition: .5s;
+   border: 1px solid rgb(192, 190, 190) ;
+    
+}
+
+.row2{
+    width: 80%;
+    height: 100px;
+   
+    margin-left: 16%;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row3{
+    width: 80%;
+    height: 100px;
+   
+    margin-left: 16%;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third h3{
+    font-size: 23px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2%;
+    cursor: pointer;
+}
+
+.third h4{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+
+.box:hover{
+    box-shadow: 2px 5px 5px rgb(131, 130, 130);
+}
+
+
+.forth{
+    width: 100%;
+    height: 600px;
+   
+}
+
+.forth h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-left: 16%;
+}
+
+.forth-sec{
+    width: 70%;
+    height: 400px;
+   
+    margin-left: 16%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.f-box{
+    width: 65%;
+    height: 70px;
+    
+    margin-left: 2%;
+    border: 1px solid rgb(192, 190, 190) ;
+    border-radius: 5px;
+}
+
+.f-box h3{
+    font-size: 23px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.f-box:hover{
+    box-shadow: 2px 5px 5px rgb(131, 130, 130);
+}
+
+
+/*=======fifth section======*/
+
+.fifth{
+    width: 100%;
+    height: 450px;
+    
+}
+
+.head-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.head-button img{
+    width: 180px;
+}
+
+.foot{
+    width: 80%;
+    height: 400px;
+    
+    margin-left: 12%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.foot-head{
+    width: 20%;
+    height: 300px ;
+    margin-top: 4%;
+}
+
+.foot-head h3{
+    margin-top: 5%;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+
+}
+
+#bold{
+    font-weight: bold;
+}
+
+.foot-head img{
+    width: 150px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+/* ----------footer--------*/
+
+.six{
+    width: 80%;
+    height: 100px;
+   
+    margin-left: 12%;
+    border-top: 1px solid gray;
+}
+
+.six p{
+    padding-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: gray;
+}
